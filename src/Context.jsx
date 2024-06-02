@@ -1,6 +1,6 @@
 import React, { useContext, useEffect } from "react";
 import { useState } from "react";
-export const API_URL = `http://www.omdbapi.com/?apikey=3dab8791&s`;
+export const API_URL = `https://www.omdbapi.com/?apikey=3dab8791&s`;
 const AppContext = React.createContext();
 const AppProvider = ({ children }) => {
   const [isLoading, setLoading] = useState(true);
